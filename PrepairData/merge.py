@@ -16,7 +16,7 @@ def mergeGeotiff(month, year):
     profile['height'] = dest.shape[1]
     profile['width'] = dest.shape[2]
     
-    dstDir = '../Data2/' + yearLabel + monthLabel
+    dstDir = '../DataMerged/' + yearLabel + monthLabel
     with rasterio.open(dstDir + '.tif', 'w', **profile) as dst:
         dst.write(dest)
     return dstDir
