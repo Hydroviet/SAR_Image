@@ -11,3 +11,5 @@ Moving data to accordant directory. To do this, run:
 ## Subsetting, merging and resampling data
 Run:
 `./PrepairData/preprocess_SAR_image.sh`
+
+Working flow pictures can be found at [readme](https://github.com/Hydroviet/SAR_Image/tree/master/readme) directory
